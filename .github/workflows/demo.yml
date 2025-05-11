@@ -51,4 +51,4 @@ jobs:
       - name: display downloaded files
         run : ls
       - name: output filenames
-        run: ${{needs.build.outputs.script-file}}
+        run: echo ${{needs.build.outputs.script-file}}
